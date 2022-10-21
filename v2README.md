@@ -25,3 +25,21 @@ Ganache
 
 MetaMask
 ![image](https://user-images.githubusercontent.com/106201726/197115906-e0d68fd4-aafd-40f6-ac04-3e57d521c570.png)
+
+
+Optional: Extend the Crowdsale Contract by Using OpenZeppelin to extend the crowdsale contract to enhance its functionality
+
+To keep the coding separate, the KaseiCoin Token Contract, the KaseiCoin Crowdsale Contract, and the KaseiCoin Deployer Contract were added in separate Solidity files than the original:
+  
+    v2KaseiCoinCrowdsale.sol
+  
+    v2KaseiCoin.sol
+
+Both v2 files were compiled, screenshot below:
+
+v2KaseiCoinCrowdsale.sol
+![image](https://user-images.githubusercontent.com/106201726/197127060-c1fbb83b-ee41-49ce-b2c8-635a579959f7.png)
+
+v2KaseiCoin.sol
+![image](https://user-images.githubusercontent.com/106201726/197127967-d08069a0-44ea-4270-81e2-0d4c2f327d4e.png)
+
