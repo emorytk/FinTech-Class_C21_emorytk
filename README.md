@@ -29,19 +29,19 @@ MetaMask
 
 Optional: Extend the Crowdsale Contract by Using OpenZeppelin to extend the crowdsale contract to enhance its functionality
 
-To keep the coding separate, the KaseiCoin Token Contract, the KaseiCoin Crowdsale Contract, and the KaseiCoin Deployer Contract were added in separate Solidity files than the original:
-  
-    v2KaseiCoinCrowdsale.sol
-  
-    v2KaseiCoin.sol
+The new contracts were compiled, see the below screen shots:
 
-Both v2 files were compiled, screenshot below:
+KaseiCoinCrowdsale.sol
+![image](https://user-images.githubusercontent.com/106201726/197138926-15cd5899-400c-4ff8-b37e-d8a199e0b590.png)
 
-v2KaseiCoinCrowdsale.sol
-![image](https://user-images.githubusercontent.com/106201726/197127060-c1fbb83b-ee41-49ce-b2c8-635a579959f7.png)
+KaseiCoin.sol
+![image](https://user-images.githubusercontent.com/106201726/197139061-a616a6df-0d1f-4236-b5f5-ebe34bc5cb68.png)
 
-v2KaseiCoin.sol
-![image](https://user-images.githubusercontent.com/106201726/197127967-d08069a0-44ea-4270-81e2-0d4c2f327d4e.png)
+I don't know EXACTLY what I did to get this to deploy, I did the "OR At Address" using the Ganache key and got a deployed contract:
+![image](https://user-images.githubusercontent.com/106201726/197139994-c5f93bb0-6ef6-46ad-b2a0-a3c9eeb454c8.png)
 
-I don't know EXACTLY what I did to get this to deploy, but I got it to deploy using a different MetaMask wallet than previously used, see screen shots below:
-![image](https://user-images.githubusercontent.com/106201726/197133725-7862ab2a-860f-4029-9d5b-647b39ad6c70.png)
+I was then able to buy 5 ETH from the MetaMask address (account 4) that was a different account than those used previously. You can see the Balance shows 5ETH und
+![image](https://user-images.githubusercontent.com/106201726/197140379-0b2f1e91-87b3-44bb-86f2-9e8f6caabda8.png)
+
+I was unable to get the code with the optional items to work, they are in the file as v2KaseiCoinCrowdsale.sol and v2KaseiCoin.sol and when I ran them, they were KaseiCoinCrowdsale.sol and KaseiCoin.sol. 
+![image](https://user-images.githubusercontent.com/106201726/197142535-decc37d8-8a21-4b57-a944-b5dbfdef719b.png)
