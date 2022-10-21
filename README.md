@@ -43,3 +43,5 @@ v2KaseiCoinCrowdsale.sol
 v2KaseiCoin.sol
 ![image](https://user-images.githubusercontent.com/106201726/197127967-d08069a0-44ea-4270-81e2-0d4c2f327d4e.png)
 
+I don't know EXACTLY what I did to get this to deploy, but I got it to deploy using a different MetaMask wallet than previously used, see screen shots below:
+![image](https://user-images.githubusercontent.com/106201726/197133725-7862ab2a-860f-4029-9d5b-647b39ad6c70.png)
