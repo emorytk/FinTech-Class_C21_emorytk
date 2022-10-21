@@ -19,12 +19,10 @@ Steps 1-3 are complete. The KaseiCoin token was created using Solidify in Remix 
 Both were compiled, screenshot below:
 
 KaseiCoinCrowdsale.sol
-![image](https://user-images.githubusercontent.com/106201726/197116281-33e693cd-29b7-46df-af7b-bde1e1441464.png)
-v2 ![image](https://user-images.githubusercontent.com/106201726/197119400-aebf9bf9-68e6-4e14-be35-5f005fbd0539.png)
+![image](https://user-images.githubusercontent.com/106201726/197119400-aebf9bf9-68e6-4e14-be35-5f005fbd0539.png)
 
 KaseiCoin.sol
-![image](https://user-images.githubusercontent.com/106201726/197116329-a756c769-728b-46ba-99bb-62bfabd0228f.png)
-v2 ![image](https://user-images.githubusercontent.com/106201726/197119478-ca87db1e-5bb1-48d7-b7e6-0ba36d9e354c.png)
+![image](https://user-images.githubusercontent.com/106201726/197119478-ca87db1e-5bb1-48d7-b7e6-0ba36d9e354c.png)
 
 Step 4 requires deployment of the crowdsale to a local blockchain using Remix, MetaMask, and Ganache. First test accounts were set up using Ganache, then functionality of of the crowdsale was tested by using MetaMask after settinng up Ganach test accounts.
 
